@@ -48,12 +48,13 @@ sudo systemctl status apache2
 # Step4:Deploy a WebPage
 
 Edit the default index file:
+
 sudo echo "<h1>Welcome to My Web Server</h1>"> /var/www/html/html/index.html
 
 # Step5:Access the Web Server
 
 Open a browser and go to:
-http://your-instanc-public-ip
+http://instanceip
 
 You should be able to see "Welcome to My WebServer"
 
