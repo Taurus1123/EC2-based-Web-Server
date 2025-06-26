@@ -11,10 +11,15 @@ Steps to Setup an EC2-based WebServer
 2.Click Launch Instance
 
 3.Configure the instance:
+
     Name:Mywebserver
+    
     AMI:Choose Ubuntu
+    
     Instance Type:t2.micro
+    
     Key Pair:Create a new key pair or use an existing one
+    
     Security Group:Allow SSH(port22) and HTTP(port 80)
     
 4.Click Launch
